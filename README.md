@@ -22,9 +22,10 @@ Step-2: Make gpu1 active by going in graphics settings and setting your browser 
 
 Now you can move to the code
 
-Index.html
+#Index.html
 1. We are using script tags to import the model
-Index.js
+
+#Index.js
 1. Accessing web cam (start)
 2. Loading model (load)
 3. Running detection through webcam feed (detect)
