@@ -25,9 +25,9 @@ Now you can move to the code
 Index.html
 1. We are using script tags to import the model
 Index.js
-1. Accessing web cam 
-2. Loading model
-3. Running detection through video feed(webcam)
-4. displaying it on the canvas
+1. Accessing web cam (start)
+2. Loading model (load)
+3. Running detection through webcam feed (detect)
+4. displaying it on the canvas (move your mouse to the video element)
 
 
