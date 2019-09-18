@@ -2,9 +2,9 @@
 
 In this Repository I will explain everything you need to know to test tensorflow pre-trained ojbect detection models on three different platforms.
 
-1. on Web browser (using javascript)  
-2. on a Cloud platform (google colab notebook) 
-3. on a local GPU (Nvidia) 
+1. On a Web browser (using javascript)  
+2. On a Cloud platform (google colaboratory notebook) 
+3. On a local GPU (Nvidia) 
 
 On a Web browser
 
