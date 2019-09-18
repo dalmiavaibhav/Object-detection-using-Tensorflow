@@ -29,6 +29,6 @@ Now you can move to the code
 1. Accessing web cam (start)
 2. Loading model (load)
 3. Running detection through webcam feed (detect)
-4. displaying it on the canvas (move your mouse to the video element)
+4. displaying it on the canvas (move your mouse to the video element to start displaying)
 
 
