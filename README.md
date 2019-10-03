@@ -28,7 +28,7 @@ Now you can move to the code
 #Index.js
 1. Accessing web cam ( click on start)
 2. Loading model (click on load)
-3. displaying it on the canvas (move your mouse to the webcam element element to start displaying)
+3. displaying seperate stream on the canvas to perform detection (move your mouse to the webcam element element to start displaying)
 4. Creating boxes on detected objects (click on detect)
 
 
