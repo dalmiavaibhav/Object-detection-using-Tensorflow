@@ -2,11 +2,11 @@
 
 In this Repository I will explain everything you need to know to test tensorflow pre-trained ojbect detection models on three different platforms.
 
-1. On a Web browser (using javascript)  
+1. In a Web browser (using javascript)  
 2. On a local GPU (Nvidia with CUDA)
 3. On a free Cloud based GPU platform (google colaboratory notebook)
 
-On a Web browser
+# In Web browser
 
 Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
 
@@ -22,13 +22,15 @@ Step-2: Make gpu1 active by going in graphics settings and setting your browser 
 
 Now you can move to the code
 
-#Index.html
+-Index.html
 1. We are using script tags to import the model
 
-#Index.js
+-Index.js
 1. Accessing web cam ( click on start)
 2. Loading model (click on load)
 3. displaying seperate stream on the canvas to perform detection (move your mouse to the webcam element element to start displaying)
 4. Creating boxes on detected objects (click on detect)
 
+
+# On a local GPU (Nvidia with CUDA support)
 
