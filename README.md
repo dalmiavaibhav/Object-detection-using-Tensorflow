@@ -1,6 +1,6 @@
 # Object-detection-using-Tensorflow
 
-In this Repository I will explain everything you need to know to test tensorflow pre-trained ojbect detection models on three different platforms.
+In this Repository I will explain everything you need to know to test tensorflow pre-trained models using tensorflow object detection API on three different platforms.
 
 1. In a Web browser (using javascript)  
 2. On a local GPU (Nvidia with CUDA)
@@ -34,7 +34,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
 
 # On a local GPU (Nvidia GPU with CUDA support)
 
-  Installation/Setup
+  Installation/Setup( we will mainly require two libraries in this implementation- Tensorflow and OpenCV)
 
    1. Installing Tensorflow GPU requires pre-installed GPU drivers with supported version, CUDA toolkit, cuDNN sdk.
         official guide is given on there website (https://www.tensorflow.org/install/gpu)
@@ -44,10 +44,12 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
 
     Step-1 Download and install anaconda
 
-    Step-2 Open anaconda terminal and run following commands 
+    Step-2 Open anaconda terminal and run following commands to install tensorflow gpu
       1. $ conda create --name tf_gpu
       2. $ activate tf_gpu
-      3. $ conda install tensorflow-gpu
+      3. $ conda install -c tensorflow-gpu
+      4. $ conda install -c menpo opencv
+      5. $ pip install opencv-contrib-python
 
     Step-3 Test your installation (https://stackoverflow.com/questions/38009682/how-to-tell-if-tensorflow-is-using-gpu-acceleration-          from-inside-python-shell)
 
@@ -58,14 +60,15 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
       Step-1. Download tensorflow models repository (required for using its utilities)
       Step-2. Download cocoapi repository (required for using COCO evaluation metrics)
 
-      Step-3. It also requires Protobuf compilers to configure model and training parameters.
-         you can complile proto files by running this command from models/research directory
+      Step-3. It also requires Protobuf compilers to configure model and training parameters so, make sure the file                             string_int_label_map.proto is compiled and compiled file string_int_label_map_pb2 is present in                                         models\research\object_detection\protos.
+        you can complile proto files by running this command from models/research directory
 
         # From tensorflow/models/research/
         $ protoc object_detection/protos/*.proto --python_out=.
 
-        In case that doesn't work you can use the compiled protobuf file from this repository 
-        by moving that file in models\research\object_detection\protos
+        In case your protobuf compiler doesn't work you can use the compiled protobuf file from this repository 
+        by moving 
+        string_int_label_map_pb2 file in models\research\object_detection\protos
 
       Step-4. Addition of directories to the PYTHON PATH to access utilites in the models and cocoapi directories.
 
@@ -73,4 +76,11 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
       >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\\object detection\\models\\research\\object_detection')
       >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\\object detection\\models\\research\\slim')
       >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\\object detection\\models\\research')
-    
+   
+   Testing the code 
+   Clone the repository
+   
+   From Object-detection-using-Tensorflow\Tensorflow python API Run detect.py using python command
+   $ Object-detection-using-Tensorflow\Tensorflow python API\python detect.py
+   -press q to close
+
