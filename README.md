@@ -79,12 +79,9 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
    
    Testing the code 
    
-   Clone the repository
-   
-   From Object-detection-using-Tensorflow\Tensorflow python API Run detect.py using python command
-   
+    Step-1 Clone the repository
+    From Object-detection-using-Tensorflow\Tensorflow python API Run detect.py using python command
     $ Object-detection-using-Tensorflow\Tensorflow python API\python detect.py
-   
     -press q to close
    
    # On a free Cloud based GPU platform (google colaboratory notebook)
