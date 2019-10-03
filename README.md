@@ -70,8 +70,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
       run
       $ git clone https://github.com/cocodataset/cocoapi.git
       
-      Step-3. It also requires Protobuf compilers to configure model and training parameters so, make sure the file                             string_int_label_map.proto is compiled and compiled file string_int_label_map_pb2 is present in                                         models\research\object_detection\protos.
-        you can complile proto files by running this command from models/research directory
+      Step-3. It also requires Protobuf compilers to configure model and training parameters so, make sure the file string_int_label_map.proto is compiled and compiled file string_int_label_map_pb2 is present in models\research\object_detection\protos you can complile proto files by running this command from models/research directory
 
         # From tensorflow/models/research/
         $ protoc object_detection/protos/*.proto --python_out=.
