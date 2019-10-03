@@ -103,7 +103,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
      
    Read this issue to understand it better (https://github.com/tensorflow/models/issues/3969)
    
-   to further increase inference speed refer to this issue
+   To further increase inference speed refer to this issue
    
    (https://github.com/tensorflow/models/issues/3270)
     
