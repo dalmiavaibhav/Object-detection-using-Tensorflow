@@ -102,7 +102,9 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
      this is because that code is creating tensorflow session each time the camera captures a frame and which makes imference very slow.
      
    Read this issue to understand it better (https://github.com/tensorflow/models/issues/3969)
+   
    to further increase inference speed refer to this issue
+   
    (https://github.com/tensorflow/models/issues/3270)
     
 
