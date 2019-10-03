@@ -10,7 +10,7 @@ In this Repository I will explain everything you need to know to test tensorflow
 
 Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
 
-  Note: Tensorflow.js also uses WebGL JavaScript API allowing GPU-accelerated usage of physics,image processing and effects as part   of    the web page canvas.
+  Note: Tensorflow.js also uses WebGL JavaScript API allowing GPU-accelerated usage of physics,image processing and effects as part of    the web page canvas.
   So, If you have a GPU in your machine you can configure it to be used in browser to increase inference speed.
 
   Enabling GPU usage by Browser(Google Chrome)
@@ -18,7 +18,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
     Step-1: check which gpu your browser is using by opening chrome://gpu/
     If gpu0 is active then your by default gpu(intel graphics) is enabled and if gpu1 is enabled then it's already configured.
 
-    Step-2: Make gpu1 active by going in graphics settings and setting your browser as a high performance app and also doing the same       from the graphics card settings.
+    Step-2: Make gpu1 active by going in graphics settings and setting your browser as a high performance app and also doing the same from the graphics card settings.
 
   Testing the code
 
@@ -51,7 +51,8 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
       4. $ conda install -c menpo opencv
       5. $ pip install opencv-contrib-python
 
-    Step-3 Test your installation (https://stackoverflow.com/questions/38009682/how-to-tell-if-tensorflow-is-using-gpu-acceleration-          from-inside-python-shell)
+    Step-3 Test your installation (https://stackoverflow.com/questions/38009682/how-to-tell-if-tensorflow-is-using-gpu-acceleration
+    from-inside-python-shell)
 
   Implementation pre-requisites 
 
@@ -80,10 +81,10 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
         string_int_label_map_pb2 file in models\research\object_detection\protos
 
       Step-4. Addition of directories to the PYTHON PATH to access utilites in the models and cocoapi directories.
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research\\object_detection\\data')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research\\object_detection')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research\\slim')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\object_detection\\data')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\object_detection')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\slim')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research')
    
    Testing the code 
    
