@@ -58,8 +58,17 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
    Using tensorflow API to run pre-trained models requires some extra configuration.
    
       Step-1. Download tensorflow models repository (required for using its utilities)
+      from 
+      $ Object-detection-using-Tensorflow\Tensorflow python API
+      run 
+      $ git clone https://github.com/tensorflow/models.git
+      
       Step-2. Download cocoapi repository (required for using COCO evaluation metrics)
-
+      from 
+      $ Object-detection-using-Tensorflow\Tensorflow python API
+      run
+      $ git clone https://github.com/cocodataset/cocoapi.git
+      
       Step-3. It also requires Protobuf compilers to configure model and training parameters so, make sure the file                             string_int_label_map.proto is compiled and compiled file string_int_label_map_pb2 is present in                                         models\research\object_detection\protos.
         you can complile proto files by running this command from models/research directory
 
