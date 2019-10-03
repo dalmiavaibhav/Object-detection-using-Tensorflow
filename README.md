@@ -80,11 +80,10 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
         string_int_label_map_pb2 file in models\research\object_detection\protos
 
       Step-4. Addition of directories to the PYTHON PATH to access utilites in the models and cocoapi directories.
-
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\\object detection\\models\\research\\object_detection\\data')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\\object detection\\models\\research\\object_detection')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\\object detection\\models\\research\\slim')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\\object detection\\models\\research')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research\\object_detection\\data')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research\\object_detection')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research\\slim')
+      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow python                    API\\models\\research')
    
    Testing the code 
    
