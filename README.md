@@ -6,7 +6,7 @@ In this Repository I will explain everything you need to know to test tensorflow
 2. On a local GPU (Nvidia with CUDA)
 3. On a free Cloud based GPU platform (google colaboratory notebook)
 
-# In Web browser
+# In a Web browser
 
 Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
 
