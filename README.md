@@ -54,7 +54,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
     Step-3 Test your installation (https://stackoverflow.com/questions/38009682/how-to-tell-if-tensorflow-is-using-gpu-acceleration
     from-inside-python-shell)
 
-  Implementation pre-requisites 
+  Installation-Setup 
 
    Using tensorflow API to run pre-trained models.
    
