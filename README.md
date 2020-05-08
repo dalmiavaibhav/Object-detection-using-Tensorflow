@@ -10,8 +10,8 @@ In this Repository I will explain everything you need to know to test tensorflow
 
 Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
 
-  Note: Tensorflow.js also uses WebGL JavaScript API allowing GPU-accelerated usage of physics,image processing and effects as part of    the web page canvas.
-  So, If you have a GPU in your machine you can configure it to be used in browser to increase inference speed.
+  Note: Tensorflow.js also WebGL, a JavaScript API allowing GPU-accelerated graphic computations.
+  So, If you have a GPU you can configure it to increase inference speed.
 
   Enabling GPU usage by Browser(Google Chrome)
 
