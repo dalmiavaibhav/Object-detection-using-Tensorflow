@@ -20,7 +20,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
 
     Step-2: Make gpu1 active by going in graphics settings and setting your browser as a high performance app and also doing the same from the graphics card settings.
 
-  Running the code
+ Testing the demo
 
   -Index.html
     1. We are using script tags to import the model
@@ -85,7 +85,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
       >>> sys.path.append('Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\slim')
       >>> sys.path.append('Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research')
    
-   Testing the code 
+   Testing the demo 
    
     Step-1 Clone the repository
     From Object-detection-using-Tensorflow\Tensorflow python API Run detect.py
