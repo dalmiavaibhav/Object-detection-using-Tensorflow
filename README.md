@@ -80,15 +80,15 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
         string_int_label_map_pb2 file in models\research\object_detection\protos
 
       Step-4. Addition of directories to the PYTHON PATH to access utilites in the models and cocoapi directories by modifying the directory as your directory of my clonned repo.
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\object_detection\\data')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\object_detection')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\slim')
-      >>> sys.path.append('C:\\Users\\SML\\Desktop\\me170003058\Github\\Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research')
+      >>> sys.path.append('Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\object_detection\\data')
+      >>> sys.path.append('Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\object_detection')
+      >>> sys.path.append('Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research\\slim')
+      >>> sys.path.append('Object-detection-using-Tensorflow\\Tensorflow pythonAPI\\models\\research')
    
    Testing the code 
    
     Step-1 Clone the repository
-    From Object-detection-using-Tensorflow\Tensorflow python API Run detect.py using python command
+    From Object-detection-using-Tensorflow\Tensorflow python API Run detect.py
     $ Object-detection-using-Tensorflow\Tensorflow python API\python detect.py
     -press q to close
    
