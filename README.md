@@ -1,6 +1,6 @@
 # Object-detection-using-Tensorflow
 
-In this Repository I will explain everything you need to know to test tensorflow pre-trained models using tensorflow object detection API on three different platforms.
+In this Repository I will explain everything you need to know to test tensorflow's pre-trained models using tensorflow object detection API on three different platforms.
 
 1. In a Web browser (using javascript)  
 2. On a local GPU (Nvidia with CUDA)
