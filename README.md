@@ -13,9 +13,9 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
   Note: Tensorflow.js also WebGL, a JavaScript API allowing GPU-accelerated graphic computations.
   So, If you have a GPU you can configure it to increase inference speed.
 
-  Enabling GPU usage by Browser(Google Chrome)
+  Enabling GPU usage for the Browser(Google Chrome)
 
-    Step-1: check which gpu your browser is using by opening chrome://gpu/
+    Step-1: check which gpu your browser is using by opening chrome://gpu
     If gpu0 is active then your by default gpu(intel graphics) is enabled and if gpu1 is enabled then it's already configured.
 
     Step-2: Make gpu1 active by going in graphics settings and setting your browser as a high performance app and also doing the same from the graphics card settings.
@@ -56,7 +56,7 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
 
   Implementation pre-requisites 
 
-   Using tensorflow API to run pre-trained models requires some extra configuration.
+   Using tensorflow API to run pre-trained models.
    
       Step-1. Download tensorflow models repository (required for using its utilities)
       from 
