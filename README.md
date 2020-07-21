@@ -99,11 +99,11 @@ Using tensorflow.js coco-Ssd model (https://github.com/tensorflow/tfjs-models/tr
    # Troubleshooting 
    
    1. You might face very slow inference speed on videos if you follow the official instructions of implementation of tensorflow object      detection API (https://github.com/tensorflow/models/tree/master/research/object_detection).
-     this is because that code is creating tensorflow session each time the camera captures a frame and which makes imference very slow.
+     this is because that code is creating tensorflow session each time the camera captures a frame and which makes inference very slow.
      
    Read this issue to understand it better (https://github.com/tensorflow/models/issues/3969)
    
-   To further increase inference speed refer to this issue
+   To further increase inference speed, refer to this issue
    
    (https://github.com/tensorflow/models/issues/3270)
     
